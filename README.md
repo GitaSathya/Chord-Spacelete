@@ -84,7 +84,32 @@ You can install all dependencies using the `requirements.txt` file.
 
 3. **Visualization**  
    - Generate the waveform and spectrogram of the audio file.  
-   - Display predicted chords in the console.  
+   - Display predicted chords in the console.
+  
+---
+
+# List of Chords and Beats
+
+| Chord/ Note Names | Beat Duration | Symbol |
+|-------------------|--------------|--------|
+| Whole Note       | 4 Beats      | O      |
+| Half Note        | 2 Beats      | D      |
+| Quarter Note     | 1 Beat       | Q      |
+| Eighth Note      | ½ Beats      | E      |
+| Sixteenth Note   | ¼ Beats      | S      |
+| Whole Rest       | Hold 4 Beats | (Hanging Block) |
+| Half Rest        | Hold 2 Beats | (Sitting Block) |
+| Quarter Rest     | Hold 1 Beat  | Z      |
+| Eighth Rest      | Hold ½ Beats | r      |
+| Sharp           | Raises pitch by half a step | # |
+| Flat            | Lowers pitch by half a step | b |
+| Treble Clef     | G clef, Treble Notes | G |
+| Bass Clef       | F clef, Bass Notes | F |
+| Staff           | 5 Lines, 4 Spaces | 5L |
+| Bar Line        | Divides Measure | - |
+| Dotted Note     | Adds Half the Beat Value | Q |
+
+
 
 ---
 
