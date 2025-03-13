@@ -49,7 +49,7 @@ The model supports custom audio input, making it flexible for analyzing differen
 
 1. **Run the Script**  
    ```bash
-   python audio_analysis.ipynb
+   python VoicePitchDetection.ipynb
    ```
 
 2. **Provide the Path to Your Custom Audio File**  
@@ -72,6 +72,12 @@ The model supports custom audio input, making it flexible for analyzing differen
 You can install all dependencies using the `requirements.txt` file.
 
 ---
+## Input Analysis
+The .wav file which were used in this project are 
+1. **Saregama** - Basic chords in music form the foundation of harmony and are built from three or more notes played together. The most common types include major chords, which sound bright and happy (e.g., C major: C-E-G), and minor chords, which have a sadder, more melancholic tone (e.g., A minor: A-C-E). Other essential chords include diminished (tense and unstable), augmented (mysterious and unresolved), and seventh chords, which add depth and complexity to a progression. Mastering these basic chords is key to playing most songs and understanding musical structure.
+
+2. **Blinding Lights** - The intro of Blinding Lights by The Weeknd features a nostalgic, pulsating synthwave melody inspired by 1980s electronic music. It opens with a driving, arpeggiated synth pattern that instantly sets an energetic and retro-futuristic mood. The bright, shimmering synths, combined with a steady four-on-the-floor drumbeat, create a sense of urgency and excitement. The reverb-heavy atmosphere and warm analog-style synth tones give it a cinematic feel, reminiscent of classic ’80s synth-pop soundtracks. This iconic intro builds anticipation before The Weeknd’s vocals enter, making it one of the most recognizable and exhilarating openings in modern pop music.
+---
 
 ## Code Workflow  
 
@@ -88,7 +94,7 @@ You can install all dependencies using the `requirements.txt` file.
   
 ---
 
-# List of Chords and Beats
+## List of Chords and Beats
 
 | Chord/ Note Names | Beat Duration | Symbol |
 |-------------------|--------------|--------|
@@ -119,7 +125,7 @@ audio-analysis-chord-recognition/
 │  
 ├── data/                     # Directory for storing audio files  
 ├── models/                   # Pre-trained model files  
-├── audio_analysis.ipynb          # Main script for running the project  
+├── VoicePitchDetection.ipynb          # Main script for running the project  
 ├── requirements.txt           # Python dependencies  
 └── README.md                  # Project documentation  
 ```
